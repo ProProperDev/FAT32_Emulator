@@ -38,3 +38,15 @@ Ok  \
 3. Запускаем программу, но перед этим проверим смонтированные устройства  \
 `$ lsblk`  \
 `$ sudo ./fat32emulator test.disk`
+![Screenshot](https://github.com/ProProperDev/FAT32_Emulator/blob/main/Screenshots/Run.png)
+4. Тестируем программу  \
+![Screenshot](https://github.com/ProProperDev/FAT32_Emulator/blob/main/Screenshots/Work1.png)
+![Screenshot](https://github.com/ProProperDev/FAT32_Emulator/blob/main/Screenshots/work2.png)
+5. При запущенной программе проверяем смонтированные устройства в отдельном терминале  \
+`$ lsblk`
+![Screenshot](https://github.com/ProProperDev/FAT32_Emulator/blob/main/Screenshots/mount_devices.png)
+6. Завершаем работу эмулятора и проверим смонтированные устройства после завершения работы эмулятора  \
+`fat32disk:/>exit`  \
+`$ lsblk`
+![Screenshot](https://github.com/ProProperDev/FAT32_Emulator/blob/main/Screenshots/mount_devices2.png)
+
